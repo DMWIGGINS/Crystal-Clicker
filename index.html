@@ -16,58 +16,85 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
 
   <title>Crystal Game</title>
 
-  <body>
-    <container>
-      <div class="row">
-        <h1>Crystal Catcher</h1>
-        <div id="target score">Target Score</div>
-        <div id="player score">Player Score</div>
-      </div>
+</head>
+
+
+<body>
+  <container>
+    <div class="row">
+      <h1>Crystal Catcher</h1>
+      <p>
+        You will be given a random number at the start of the game.
+      </p>
+      <br>
+      <p>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <br>
+      <p>
+        You win the game by matching your total score to the random number. You lose the game if your total score goes above the
+        random number.
+      </p>
+      <br>
+      <p>
+        The value of each crystal is hidden from you until you click on it.
+      </p>
+      <br>
+      <p>Each time the game starts, the value of each crystal will change.</p>
+      <br>
+      <p>
+        <b>Good Luck!</b>
+      </p>
+      <br>
+
+
+
+      </h>
+      <div id="targetscore">Target Score</div>
+    </div>
+    <div class="jumbotron">
+
+
 
       <div class="row">
-        <div class="col-md-3">
-          <div id="starcrystal">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/starcrystal.jpg" alt="starcrystal">
-            </a>
+        <div class="col-md-2">
+          <div id="whitecrystal">
+            <img src="assets/images/whitecrystal.jpg" alt="whitecrystal" height="220px" width="190px">
+
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div id="firecrystal">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/firecrystal.jpg" alt="firecrystal">
-            </a>
+            <img src="assets/images/firecrystal.jpg" alt="firecrystal" height="220px" width="188px">
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div id="bluecrystal">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/bluecrystal.jpg" alt="bluecrystal">
-            </a>
+            <img src="assets/images/bluecrystal.jpg" alt="bluecrystal" height="220px" width="165px">
           </div>
         </div>
-        
-        <div class="col-md-3">
+
+        <div class="col-md-2">
           <div id="purplecrystal">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/purplecrystal.jpg" alt="purplecrystal">
-            </a>
+            <img src="assets/images/purplecrystal.jpg" alt="purplecrystal" height="220px" width="142px">
           </div>
         </div>
-
-        <div id="wins">Wins</div>
-        <div id="losses">Losses</div>
-
       </div>
 
+    </div>
+    <div id="wins">Wins</div>
+    <div id="losses">Losses</div>
+    <div id="playerscore">Player Score</div>
 
-    </container>
-  </body>
+
+
+  </container>
+</body>
