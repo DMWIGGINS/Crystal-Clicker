@@ -1,4 +1,4 @@
-$(document).ready(function () {
+// $(document).ready(function() {
 
     var targetscore = 0;
     var playerscore = 0;
@@ -7,10 +7,10 @@ $(document).ready(function () {
     var whitecrystal = 0;
     var firecrystal = 0;
     var bluecrystal = 0;
-    var purplecrystal = 0;
-
-
-
+    var purplercystal = 0;
+    
+    
+    
 
     function newGame() {
         var playerscore = 0;
@@ -33,6 +33,7 @@ $(document).ready(function () {
 
     $("whitecrystal").click(function () {
         playerscore = playerscore + whitecrystal;
+        console.log(whitecrystal);
         $("playerscore").append(playerscore);
         if (playerscore === targetscore) {
             wins++;
@@ -46,7 +47,8 @@ $(document).ready(function () {
     });
 
     $("firecrystal").click(function () {
-        playerscore = playerscore + firecrystal;
+            playerscore = playerscore + firecrystal;
+        console.log(firecrystal);
         $("playerscore").append(playerscore);
         if (playerscore === targetscore) {
             wins++;
@@ -61,6 +63,7 @@ $(document).ready(function () {
 
     $("bluecrystal").click(function () {
         playerscore = playerscore + bluecrystal;
+        console.log(bluecrystal);
         $("playerscore").append(playerscore);
         if (playerscore === targetscore) {
             wins++;
@@ -75,6 +78,7 @@ $(document).ready(function () {
 
     $("purplecrystal").click(function () {
         playerscore = playerscore + purplecrystal;
+        console.log(purplecrystal);
         $("playerscore").append(playerscore);
         if (playerscore === targetscore) {
             wins++;
@@ -87,4 +91,4 @@ $(document).ready(function () {
         }
     });
 
-});
+// });

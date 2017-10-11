@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <script src="assets/javascript/game.js"></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -17,6 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <script src="assets/javascript/game.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
@@ -29,37 +29,55 @@
 <body>
   <container>
     <div class="row">
-      <h1>Crystal Catcher</h1>
-      <p>
-        You will be given a random number at the start of the game.
-      </p>
-      <br>
-      <p>
-        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-      <br>
-      <p>
-        You win the game by matching your total score to the random number. You lose the game if your total score goes above the
-        random number.
-      </p>
-      <br>
-      <p>
-        The value of each crystal is hidden from you until you click on it.
-      </p>
-      <br>
-      <p>Each time the game starts, the value of each crystal will change.</p>
-      <br>
-      <p>
-        <b>Good Luck!</b>
-      </p>
-      <br>
+      <div class="col-md-5">
+        <div id="instructions">
 
+          <h1>Crystal Catcher</h1>
+          <br>
+          <p>
+            You will be given a random number at the start of the game.
+          </p>
+          <br>
+          <p>
+            There are four crystals below. </p>
+          <p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+          <br>
+          <p>
+            You win the game by matching your total score to the random number.</p>
+          <p> You lose the game if your total score goes above the random number.
+          </p>
+          <br>
+          <p>
+            The value of each crystal is hidden from you until you click on it.
+          </p>
+          <br>
+          <p>Each time the game starts, the value of each crystal will change.</p>
+          <br>
+          <p>
+            <b>Good Luck!</b>
+          </p>
+          <br>
+        </div>
+      </div>
 
-
-      </h>
-      <div id="targetscore">Target Score</div>
+      <div class="col-md-5">
+        <div id="scorebox">
+          <div class="row">
+            <div id="targetscore">Target Score</div>
+          </div>
+          <div class="row">
+            <div id="wins">Wins</div>
+          </div>
+          <div class="row">
+            <div id="losses">Losses</div>
+          </div>
+          <div class="row">
+            <div id="playerscore">Player Score</div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="jumbotron">
-
 
 
       <div class="row">
@@ -90,9 +108,6 @@
       </div>
 
     </div>
-    <div id="wins">Wins</div>
-    <div id="losses">Losses</div>
-    <div id="playerscore">Player Score</div>
 
 
 

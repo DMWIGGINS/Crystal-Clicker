@@ -1,10 +1,27 @@
-p,
-h1,
 #targetscore,
 #playerscore,
 #wins,
-#losses {
+#losses {}
+
+p,
+h1 {
     font-family: 'Dosis', sans-serif;
+}
+
+#instructions {
+    background-color: #240441e7;
+}
+
+#scorebox {
+    background-color: #240441e7;
+}
+
+p {
+    line-height: .5;
+}
+
+.jumbotron {
+    background-color: #010101;
 }
 
 
@@ -12,13 +29,6 @@ h1,
 
 c1 {
     background-color: #db2c00;
-}
-
-
-/* turquoise */
-
-c2 {
-    background-color: #008c85;
 }
 
 
@@ -38,17 +48,9 @@ c4 {
 
 /* black */
 
-#jumbotron {
-    background-color: #0d0305;
-}
-
-container {
-    background-color: #131c06;
-}
-
 
 /* For the white one? */
 
 c6 {
-    background-color: #ad2638;
+    background-color: #f54e64;
 }
