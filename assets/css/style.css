@@ -1,7 +1,24 @@
+body {
+    /* background-color: #5d5f5d; */
+    /* background-color: #5c0056; */
+    /* background-color: #db2c00; */
+    /* background-color: #000acc; */
+    /* background-color: #c4e7ff; */
+    background-color: #000000;
+    background-image: url(http://www.transparenttextures.com/patterns/concrete-wall-2.png);
+    /* background-image: url(../assets/images/concrete-wall-2.png); */
+}
+
 #targetscore,
 #playerscore,
 #wins,
-#losses {}
+#losses {
+    height: 50px;
+    background-color: lightsteelblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
 
 p,
 h1 {
@@ -9,11 +26,21 @@ h1 {
 }
 
 #instructions {
-    background-color: #240441e7;
+    background-color: gray;
+    padding-left: 10px;
+    margin-top: 20px;
 }
 
 #scorebox {
-    background-color: #240441e7;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: lightsteelblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 325px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #353434;
 }
 
 p {
@@ -22,35 +49,4 @@ p {
 
 .jumbotron {
     background-color: #010101;
-}
-
-
-/* orange */
-
-c1 {
-    background-color: #db2c00;
-}
-
-
-/* blue */
-
-c3 {
-    background-color: #000acc;
-}
-
-
-/* purple */
-
-c4 {
-    background-color: #5c0056;
-}
-
-
-/* black */
-
-
-/* For the white one? */
-
-c6 {
-    background-color: #f54e64;
 }

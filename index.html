@@ -17,6 +17,7 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <script src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/images">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
@@ -27,9 +28,17 @@
 
 
 <body>
+
   <container>
     <div class="row">
+      <!-- empty column for spacing -->
+
+      <div class="col-md-1"></div>
+
       <div class="col-md-5">
+
+        <!-- Instruction box with instructions -->
+
         <div id="instructions">
 
           <h1>Crystal Catcher</h1>
@@ -39,11 +48,14 @@
           </p>
           <br>
           <p>
-            There are four crystals below. </p>
-          <p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            There are four crystals below.
+          </p>
+          <p>By clicking on a crystal you will add a specific amount of points to your total score.
+          </p>
           <br>
           <p>
-            You win the game by matching your total score to the random number.</p>
+            You win the game by matching your total score to the random number.
+          </p>
           <p> You lose the game if your total score goes above the random number.
           </p>
           <br>
@@ -51,7 +63,8 @@
             The value of each crystal is hidden from you until you click on it.
           </p>
           <br>
-          <p>Each time the game starts, the value of each crystal will change.</p>
+          <p>Each time the game starts, the value of each crystal will change.
+          </p>
           <br>
           <p>
             <b>Good Luck!</b>
@@ -61,6 +74,9 @@
       </div>
 
       <div class="col-md-5">
+
+        <!-- Box containing targetscore, wins, losses and playerscore -->
+
         <div id="scorebox">
           <div class="row">
             <div id="targetscore">Target Score</div>
@@ -77,11 +93,19 @@
         </div>
       </div>
     </div>
+
+    <!--  empty column for spacing-->
+    <div class="col-md-1"></div>
+
+    <!-- using jumbotron for crystal display section -->
     <div class="jumbotron">
 
-
       <div class="row">
+        <!-- empty column for spacing -->
+        <div class="col-md-2"></div>
+
         <div class="col-md-2">
+          <!-- div for white crystal image -->
           <div id="whitecrystal">
             <img src="assets/images/whitecrystal.jpg" alt="whitecrystal" height="220px" width="190px">
 
@@ -89,27 +113,33 @@
         </div>
 
         <div class="col-md-2">
+          <!--  div for fire crystal image -->
           <div id="firecrystal">
             <img src="assets/images/firecrystal.jpg" alt="firecrystal" height="220px" width="188px">
           </div>
         </div>
 
         <div class="col-md-2">
+          <!-- div with blue crystal image -->
           <div id="bluecrystal">
             <img src="assets/images/bluecrystal.jpg" alt="bluecrystal" height="220px" width="165px">
           </div>
         </div>
 
         <div class="col-md-2">
+          <!-- div with purple crystal image  -->
           <div id="purplecrystal">
             <img src="assets/images/purplecrystal.jpg" alt="purplecrystal" height="220px" width="142px">
           </div>
         </div>
+
+        <!-- empty column for spacing -->
+        <div class="col-md-2"></div>
       </div>
-
     </div>
-
 
 
   </container>
 </body>
+
+</html>
