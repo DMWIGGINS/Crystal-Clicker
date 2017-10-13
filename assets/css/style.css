@@ -9,6 +9,13 @@ body {
     /* background-image: url(../assets/images/concrete-wall-2.png); */
 }
 
+
+    
+p1, p2, p3, p4 {
+    font-style: bold;
+    color: rgb(72, 4, 75)
+}
+
 #targetscore,
 #playerscore,
 #wins,
