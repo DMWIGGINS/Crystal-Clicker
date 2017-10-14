@@ -1,59 +1,62 @@
-body {
-    /* background-color: #5d5f5d; */
-    /* background-color: #5c0056; */
-    /* background-color: #db2c00; */
-    /* background-color: #000acc; */
-    /* background-color: #c4e7ff; */
-    background-color: #000000;
-    background-image: url(http://www.transparenttextures.com/patterns/concrete-wall-2.png);
-    /* background-image: url(../assets/images/concrete-wall-2.png); */
-}
+    body {
+        
+        background-image: url(../images/concrete-wall-2.png); 
+        background-color: #000000;
+    }
+
+    p1,
+    p2,
+    p3,
+    p4 {
+        font-style: bold;
+        color: rgb(72, 4, 75)
+    }
+
+    #targetscore,
+    #playerscore,
+    #wins,
+    #losses {
+        height: 50px;
+        background-color: lightsteelblue;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    p,
+    h1 {
+        font-family: 'Dosis', sans-serif;
+    }
+
+    #instructions {
+        background-color: gray;
+        padding-left: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #353434;
+        font-weight: bold;
+
+        height: 375px;
 
 
-    
-p1, p2, p3, p4 {
-    font-style: bold;
-    color: rgb(72, 4, 75)
-}
+    }
 
-#targetscore,
-#playerscore,
-#wins,
-#losses {
-    height: 50px;
-    background-color: lightsteelblue;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-}
+    #scorebox {
+        margin-top: 25px;
+        padding-top: 10px;
+        background-color: lightsteelblue;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 325px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #353434;
+    }
 
-p,
-h1 {
-    font-family: 'Dosis', sans-serif;
-}
+    p {
+        line-height: .5;
+    }
 
-#instructions {
-    background-color: gray;
-    padding-left: 10px;
-    margin-top: 20px;
-}
-
-#scorebox {
-    margin-top: 20px;
-    padding-top: 10px;
-    background-color: lightsteelblue;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 325px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #353434;
-}
-
-p {
-    line-height: .5;
-}
-
-.jumbotron {
-    background-color: #010101;
-}
+    .jumbotron {
+        background-color: #010101;
+    }
